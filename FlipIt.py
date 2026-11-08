@@ -12,6 +12,8 @@ from tkinter import messagebox
 # Initialize the main CustomTkinter application window context
 root = ctk.CTk()
 
+ctk.set_appearance_mode("dark") # Makes the application dark themed
+
 # Set the window title that displays in the OS top title bar
 root.title("FlipIt")
 
